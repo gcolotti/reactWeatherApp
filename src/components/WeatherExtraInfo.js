@@ -14,7 +14,7 @@ const WeatherExtraInfo = ({humidity, windspeed}) => {
     )
 };
 
-WeatherExtraInfo.PropTypes = {
+WeatherExtraInfo.propTypes = {
     humidity: PropTypes.number.isRequired,
     windspeed: PropTypes.number.isRequired,
 };

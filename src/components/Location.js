@@ -10,7 +10,7 @@ const Location = ({city}) => {
         </div>);
 };
 
-Location.PropTypes = {
+Location.propTypes = {
     city: PropTypes.string.isRequired,
 };
 
