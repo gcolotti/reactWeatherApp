@@ -4,10 +4,10 @@ const WeatherExtraInfo = ({humidity, windspeed}) => {
     return (
         <div>
             <span>
-                {humidity}
+                {`${humidity}% | `}
             </span>
             <span>
-                {windspeed}
+                {`${windspeed}m/s`}
             </span>
         </div>
     )
